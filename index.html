@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Welcome to My Work</title>
+    <!-- Google Fonts: Montserrat for headings, Lato for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Full-page Loader -->
+    <div id="loader" class="loader">
+        <div class="loader-logo">L V</div>
+    </div>
+    <!-- Theme Toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme Mode">
+        <span class="cyber-label">CYBER</span>
+        <span class="mode-icon">✦</span>
+    </button>
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content fade-in-section">
+            <p
+                style="font-family: var(--font-body); font-weight: 500; font-size: 1.2rem; color: var(--accent-primary); margin-bottom: 0.5rem; letter-spacing: 2px; text-transform: uppercase;">
+                Hello, I am</p>
+            <h1 class="hero-title">LOREM <span class="accent-gold">V</span></h1>
+            <p class="hero-subtitle">A passionate graphic designer with over 8 years of experience building elegant
+                visual identities and crafting digital experiences. I bring brands to life through minimalist, premium
+                design.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#about" class="cta-button">Read Bio</a>
+                <a href="#projects" class="cta-button"
+                    style="background-color: transparent; color: var(--text-muted); border-color: var(--text-muted);">View
+                    Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about fade-in-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-info">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">About <span
+                            class="accent-gold">Me</span></h2>
+                    <p>I blend art with strategy to produce visual narratives that elevate brands. After an extensive
+                        career spanning specialized boutique agencies and freelance collaborations, my standout strength
+                        remains rooted in brand identity, elegant typography, and seamless user interfaces.</p>
+                    <p style="margin-top: 1.5rem;"><strong>Specialties:</strong> Brand Identity | Typography |
+                        Minimalist Web Design</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">8+</span>
+                        <span class="stat-desc">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">120+</span>
+                        <span class="stat-desc">Projects Delivered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Showcase Section -->
+    <section class="portfolio fade-in-section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Project Showcase</h2>
+            <div class="project-grid">
+
+                <!-- Card 1: Personal Project -->
+                <article class="project-card stacked">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=600&auto=format&fit=crop"
+                            alt="Personal Project" class="project-image"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="project-image-fallback" style="display: none;">
+                            <span>Project Image 1</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Case Study</span>
+                        <h3 class="project-title">Personal Project</h3>
+                        <p class="project-desc">A deep dive into independent product design and visual storytelling.</p>
+                    </div>
+                </article>
+
+                <!-- Card 2: Portfolio -->
+                <article class="project-card stacked">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1507238692062-5a042e9ba4cb?q=80&w=600&auto=format&fit=crop"
+                            alt="Portfolio" class="project-image"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="project-image-fallback" style="display: none;">
+                            <span>Project Image 2</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Web Design</span>
+                        <h3 class="project-title">Portfolio Section</h3>
+                        <p class="project-desc">Crafting a personal brand identity and digital presence from scratch.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Card 3: Behance Project -->
+                <article class="project-card stacked">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop"
+                            alt="Behance" class="project-image"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="project-image-fallback" style="display: none;">
+                            <span>Project Image 3</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Visual Identity</span>
+                        <h3 class="project-title">Behance Showcase</h3>
+                        <p class="project-desc">Comprehensive visual identity system and marketing assets.</p>
+                    </div>
+                </article>
+
+                <!-- Card 4: 26-Week Project -->
+                <article class="project-card stacked">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop"
+                            alt="26-Week Project" class="project-image"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="project-image-fallback" style="display: none;">
+                            <span>Project Image 4</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Long-term Execution</span>
+                        <h3 class="project-title">26-Week Project</h3>
+                        <p class="project-desc">A half-year journey of continuous design iteration and product building.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Links Section -->
+    <section class="social-links-section fade-in-section" id="social-media"
+        style="padding: 6rem 0; background-color: var(--bg-main);">
+        <div class="container">
+            <h2 class="section-title">Social Media Links</h2>
+            <div class="social-grid">
+                
+                <a href="#" class="social-card">
+                    <div class="social-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1611926653458-09294b3142bf?auto=format&fit=crop&q=80&w=200" alt="LinkedIn Profile">
+                    </div>
+                    <div class="social-info">
+                        <h3 class="social-card-title">LinkedIn</h3>
+                        <span class="social-card-desc">Professional Profile</span>
+                    </div>
+                </a>
+
+                <a href="#" class="social-card">
+                    <div class="social-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=200" alt="Instagram Process">
+                    </div>
+                    <div class="social-info">
+                        <h3 class="social-card-title">Instagram</h3>
+                        <span class="social-card-desc">Visual Process</span>
+                    </div>
+                </a>
+
+                <a href="#" class="social-card">
+                    <div class="social-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=200" alt="Resume CV">
+                    </div>
+                    <div class="social-info">
+                        <h3 class="social-card-title">Hello.cv</h3>
+                        <span class="social-card-desc">Resume Details</span>
+                    </div>
+                </a>
+
+                <a href="#" class="social-card">
+                    <div class="social-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=200" alt="Behance Showcase">
+                    </div>
+                    <div class="social-info">
+                        <h3 class="social-card-title">Behance</h3>
+                        <span class="social-card-desc">Design Showcase</span>
+                    </div>
+                </a>
+
+                <a href="mailto:hello@example.com" class="social-card">
+                    <div class="social-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1596526131083-e8c633c948d2?auto=format&fit=crop&q=80&w=200" alt="Gmail Contact">
+                    </div>
+                    <div class="social-info">
+                        <h3 class="social-card-title">Gmail</h3>
+                        <span class="social-card-desc">Direct Contact</span>
+                    </div>
+                </a>
+
+                <a href="tel:+1234567890" class="social-card">
+                    <div class="social-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&q=80&w=200" alt="Mobile Call">
+                    </div>
+                    <div class="social-info">
+                        <h3 class="social-card-title">Mobile Line</h3>
+                        <span class="social-card-desc">Quick Connect</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Links Section -->
+    <section class="other-links-section fade-in-section" id="other-links"
+        style="padding: 6rem 0 10rem 0; background-color: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Other Links</h2>
+            <div class="small-cards-grid">
+
+                <!-- Library Card -->
+                <a href="#" class="small-card">
+                    <h3 class="small-card-title">Library</h3>
+                    <span class="small-card-desc">My collection of reading resources.</span>
+                </a>
+
+                <!-- MyAnimeList Card -->
+                <a href="#" class="small-card">
+                    <h3 class="small-card-title">MyAnimeList</h3>
+                    <span class="small-card-desc">Anime and visual inspiration list.</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal Overlay -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content-wrapper">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactivity scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
